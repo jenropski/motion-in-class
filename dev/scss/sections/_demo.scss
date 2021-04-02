@@ -1,3 +1,19 @@
 #demo{
-    
+    display: grid;
+    grid-template-columns: auto 80% auto;
+    grid-template-areas: ". demo .";
+    >div{
+        height: 100vh;
+        grid-area: demo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        #red-ball{
+            width: 200px;
+            height: 200px;
+            background-color: #fd6363;
+            border-radius: 100%;
+        }
+    }
 }
