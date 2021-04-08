@@ -420,9 +420,19 @@ textarea {
   justify-content: center;
   align-items: center;
 }
-#demo > div #red-ball {
+#demo > div .box {
   width: 200px;
   height: 200px;
+}
+#demo > div #red-ball {
   background-color: #fd6363;
+  border-radius: 100%;
+}
+#demo > div #yellow-ball {
+  background-color: #fdec53;
+  border-radius: 100%;
+}
+#demo > div #orange-ball {
+  background-color: #dc8118;
   border-radius: 100%;
 }

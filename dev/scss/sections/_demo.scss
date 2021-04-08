@@ -9,10 +9,23 @@
         justify-content: center;
         align-items: center;
 
-        #red-ball{
+        .box{
             width: 200px;
             height: 200px;
+        }
+
+        #red-ball{
             background-color: #fd6363;
+            border-radius: 100%;
+        }
+
+        #yellow-ball{
+            background-color: #fdec53;
+            border-radius: 100%;
+        }
+
+        #orange-ball{
+            background-color: #dc8118;
             border-radius: 100%;
         }
     }
