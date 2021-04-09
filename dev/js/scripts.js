@@ -1,5 +1,5 @@
 import { gsap } from "gsap";
-import $ from jquery;
+// import $ from "jquery";
 
 
 
@@ -57,17 +57,17 @@ import $ from jquery;
 let shapeTL = gsap.timeline({paused:true});
 
 shapeTL.from("#orange-ball", {duration: 1, x:-600, y:200})
-    .to("#orange-ball", {duration: 1, x:200, y:-300})
-    .to("#orange-ball", {duration: 1, x:-70, y:60})
+    // .to("#orange-ball", {duration: 1, x:200, y:-300})
+    // .to("#orange-ball", {duration: 1, x:-70, y:60})
 
-    .from("#yellow-ball", {duration: 1, x:-100, y:150},"-=1.5")
-    .to("#yellow-ball", {duration: 3, x:400, y:-50})
-    .to("#yellow-ball", {duration: 1, x:-10, y:350})
+    // .from("#yellow-ball", {duration: 1, x:-100, y:150},"-=1.5")
+    // .to("#yellow-ball", {duration: 3, x:400, y:-50})
+    // .to("#yellow-ball", {duration: 1, x:-10, y:350})
 
-    .from("#red-ball", {duration: 1, x:-300, y:300})
+    .from("#red-ball", {duration: 1, x:-300, y:300, backgroundColor:"#000"})
     .to("#red-ball", {duration: 1, x:200, y:-200})
     .to("#red-ball", {duration: 1, x:-600, y:600});
 
-$("#red-ball").on("click",function(){
-    shapeTL.play();
-})
+// $("#red-ball").on("click",function(){
+//     shapeTL.play();
+// })
