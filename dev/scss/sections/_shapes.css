@@ -1,0 +1,17 @@
+#shapes {
+  display: grid;
+  grid-template-columns: auto 60% auto;
+  grid-template-areas: ". shapes .";
+  height: 100vh;
+}
+#shapes > div {
+  grid-area: shapes;
+}
+#shapes > div #pink-circle {
+  height: 200px;
+  width: 200px;
+  background-color: #e607a3;
+  border-radius: 100%;
+  margin-left: 300px;
+  margin-top: 300px;
+}
