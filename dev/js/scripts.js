@@ -7,7 +7,8 @@ gsap.to("#pink-circle", { duration: 3, scale:-.5, delay: 3 });
 gsap.to("#pink-circle", { duration: 2, scale:1, delay:4 });
 gsap.to("#pink-circle", { duration: 3, scale:1, delay: 5 });
 gsap.to("#pink-circle", { duration: 3, x:400, y:100, delay: 6 });
-gsap.to("#pink-circle", { duration: 4, scale:-2, delay: 7 });
+gsap.to("#pink-circle", { duration: 4, scale:-2, delay: 7, repeat: -1  });
+
 
 
 
